@@ -1,0 +1,3 @@
+https://www.cs.auckland.ac.nz/courses/compsci369s1c/lectures/GG-notes/CS369-StringAlgs.pdf
+
+https://www.researchgate.net/publication/283035344_String_Searching_with_DFA-based_Algorithm

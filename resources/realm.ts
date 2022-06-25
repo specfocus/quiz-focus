@@ -1,0 +1,10 @@
+export const AJAX = 'ajax';
+export const AWS_S3 = 'aws-s3';
+export const IBM_S3 = 'ibm-s3';
+export const FILE_SYSTEM = 'file-system';
+export const MONGODB = 'mongodb';
+export const PRISM = 'prism';
+export const REST = 'rest';
+export const WWW = 'www';
+export const REALMS = [AJAX, AWS_S3, IBM_S3, FILE_SYSTEM, MONGODB, PRISM, REST, WWW] as const;
+export type Realm = typeof REALMS[number];

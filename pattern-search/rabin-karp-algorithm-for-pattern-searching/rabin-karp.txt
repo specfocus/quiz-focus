@@ -1,0 +1,3 @@
+https://www.cs.auckland.ac.nz/courses/compsci369s1c/lectures/GG-notes/CS369-StringAlgs.pdf
+
+https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/

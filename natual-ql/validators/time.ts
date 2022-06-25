@@ -1,0 +1,1 @@
+export const isValidTimestamp = (str: string): boolean => !isNaN(Date.parse(str))

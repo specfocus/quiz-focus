@@ -1,0 +1,33 @@
+{
+  "name": "@specfocus/quiz-focus",
+  "description": "Query languages and engines",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/specfocus/quiz-focus.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "exjest": "yarn node --experimental-vm-modules $(yarn bin jest)",
+    "test": "yarn exjest --coverage",
+    "test:watch": "yarn exjest --watch"
+  },
+  "author": "Lucas M. Oromi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/jmespath": "^0.15.0",
+    "@types/node": "^16.11.13",
+    "bson": "^4.6.0",
+    "jest": "^27.4.5",
+    "mongodb": "^4.2.1",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "jmespath": "^0.15.0",
+    "mingo": "^5.0.0"
+  }
+}
