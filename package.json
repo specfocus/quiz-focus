@@ -17,6 +17,7 @@
   "author": "Lucas M. Oromi",
   "license": "MIT",
   "devDependencies": {
+    "@specfocus/save-focus": "^0.0.1",
     "@types/jest": "^27.0.3",
     "@types/jmespath": "^0.15.0",
     "@types/node": "^16.11.13",
